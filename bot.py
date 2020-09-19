@@ -17,7 +17,7 @@ async def on_message(message):
     
     if str(message.channel) == "pictures" and message.content != "":
         
-        await message.channel.purge(limit=2)
+        await message.channel.purge(limit=1)
 
 client.run('NzQ3Njk3ODU1MTk5OTY5Mjgx.X0Sp5A.Q--ejtIyfw579qI6IJ4NDUsJX70')
 
