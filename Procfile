@@ -1,1 +1,1 @@
-worker: python genz.py
+worker: python bot.py
