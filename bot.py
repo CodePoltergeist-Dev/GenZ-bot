@@ -5,10 +5,10 @@ from discord.ext import tasks
 from itertools import cycle
 
 #my bot's command prefix
-client = commands.Bot(command_prefix="-")
+client = commands.Bot(command_prefix="g!")
 
 #list of status here
-status = cycle(['use "-" as prefix, For Eg: -help', 'I wish I was Cool'])
+status = cycle(['use "g!" as prefix, For Eg: -help', 'I wish I was Cool'])
 
 #just a basic hi to hello event
 @client.event
