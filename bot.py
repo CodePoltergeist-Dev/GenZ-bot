@@ -22,9 +22,9 @@ async def on_message(message):
             await message.channel.send("Hello " + str(message.author) + "!")
         else:
             await message.channel.send("Heya dude, Wassup?")
-            
-     if message.content.startswith("Go sleep"):
-         await message.channel.send("No u!")
+
+    if message.content.startswith("Go sleep"):
+        await message.channel.send("No u!")
 
     elif str(message.channel) == "pictures" and message.content != "":
         await message.channel.purge(limit=1)
@@ -155,10 +155,5 @@ async def unban(ctx, *, member):
         await ctx.channel.send(embed=embed)
         return
 
-
 client.run('NzQ3Njk3ODU1MTk5OTY5Mjgx.X0Sp5A.Q--ejtIyfw579qI6IJ4NDUsJX70')
-
-
-
-
 
