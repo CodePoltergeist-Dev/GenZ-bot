@@ -22,6 +22,11 @@ async def on_message(message):
             await message.channel.send("Hello " + str(message.author) + "!")
         else:
             await message.channel.send("Heya dude, Wassup?")
+            
+     if message.author == client.user:
+            return
+     if message.content.startswith("Go sleep"):
+            await message.channel.send("No u!")
 
     elif str(message.channel) == "pictures" and message.content != "":
         await message.channel.purge(limit=1)
