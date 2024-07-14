@@ -155,5 +155,5 @@ async def unban(ctx, *, member):
         await ctx.channel.send(embed=embed)
         return
 
-client.run('NzQ3Njk3ODU1MTk5OTY5Mjgx.X0Sp5A.Q--ejtIyfw579qI6IJ4NDUsJX70')
+client.run('----the discord id has been compromised so its not public anymore.')
 
